@@ -136,7 +136,7 @@
 </li>
 <li>
 <p>Include the file inside your OpenCL kernel as you would any other library</p>
-<pre><code>  #include "cl_complex.h.cl
+<pre><code>  #include "cl_complex.h.cl"
 </code></pre>
 </li>
 </ul>
