@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="complex-opencl">Complex OpenCL</h1>
+<h1 id="lib_complex">Lib_complex</h1>
 <p>This is a small library-like extension, mimicking the functionality of <code>&lt;complex.h&gt;</code>, which enables operations with complex numbers inside of the OpenCL kernels.</p>
 <h2 id="definitions">Definitions</h2>
 <p>This library will use <code>double</code> precision if your system supports it, otherwise, single-precision <code>float</code> type will be used.</p>
@@ -136,7 +136,7 @@
 </li>
 <li>
 <p>Include the file inside your OpenCL kernel as you would any other library</p>
-<pre><code>  #include "cl_complex.h.cl"
+<pre><code>  #include "lib_complex.h.cl
 </code></pre>
 </li>
 </ul>
